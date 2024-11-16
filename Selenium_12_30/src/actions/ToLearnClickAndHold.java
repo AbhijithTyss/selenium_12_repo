@@ -13,6 +13,7 @@ public class ToLearnClickAndHold {
 
 	public static void main(String[] args) throws InterruptedException {
 		// class is modified in github
+		// modified in Actions class
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
